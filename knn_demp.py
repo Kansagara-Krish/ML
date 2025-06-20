@@ -1,3 +1,7 @@
+#KNN algorithm is is used for the predict the upcoming according upcoming data 
+#Find the best k value for accurate result
+#Predcit and find accurate score 
+
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
