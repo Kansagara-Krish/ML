@@ -1,3 +1,12 @@
+#Income Classification using K-Nearest Neighbors (KNN)
+# This project uses the UCI Adult dataset to predict whether an individual's income exceeds $50K/year.
+# It includes:
+# - Data preprocessing and one-hot encoding of categorical features
+# - Feature scaling using StandardScaler
+# - Model training and hyperparameter tuning for KNN with varying k values
+# - Accuracy evaluation and visualization of model performance
+# - Custom input handling for real-time income prediction
+# Developed as part of machine learning practice with Scikit-learn
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
