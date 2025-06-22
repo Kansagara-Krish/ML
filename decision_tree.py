@@ -1,3 +1,13 @@
+# 🚗 Car Purchase Prediction using Decision Tree Classifier
+# This project aims to predict whether a user will purchase a car based on gender, age, and annual salary.
+# Workflow includes:
+# - Data preprocessing (gender encoding, null check)
+# - Feature selection and train-test split
+# - Model training using DecisionTreeClassifier
+# - Optionally applies StandardScaler for input normalization
+# - Provides prediction capability for new user input
+# Developed as part of machine learning practice using Scikit-learn and NumPy
+
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
