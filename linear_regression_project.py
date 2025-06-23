@@ -71,17 +71,7 @@ try:
 
     #predict new output of a data
 
-    new_data_raw = pd.DataFrame([[5, 52, 1, 5, 2]], 
-                            columns=['Hours Studied', 'Previous Scores',  'Extracurricular Activities','Sleep Hours',
-                                     'Sample Question Papers Practiced', 
-                                    ])    
-
-# Align column order with training data
-    scaler = StandardScaler()
-    new_data_raw = new_data_raw.reindex(columns=X.columns, fill_value=0)
-    new_data_scaled = scaler.transform(new_data_raw)
-    new_prediction = reg.predict(new_data_raw)
-
+ 
     print("Prediction for new data:", new_prediction)
 
 
