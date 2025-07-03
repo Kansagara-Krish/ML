@@ -230,3 +230,5 @@ try:
 
 except Exception as e:
     print("\nAn error occurred:", e)
+
+# In this project linear regresiion not give expected output, but Random Forest give accrate answer
